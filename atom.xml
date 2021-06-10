@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dr-li123.github.io</id>
     <title>Gridea</title>
-    <updated>2021-06-10T16:34:33.761Z</updated>
+    <updated>2021-06-10T18:10:05.498Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dr-li123.github.io"/>
     <link rel="self" href="https://Dr-li123.github.io/atom.xml"/>
@@ -10,6 +10,188 @@
     <logo>https://Dr-li123.github.io/images/avatar.png</logo>
     <icon>https://Dr-li123.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[Markdown 开始]]></title>
+        <id>https://Dr-li123.github.io/post/markdown-kai-shi/</id>
+        <link href="https://Dr-li123.github.io/post/markdown-kai-shi/">
+        </link>
+        <updated>2021-06-10T18:06:43.000Z</updated>
+        <content type="html"><![CDATA[<h6 id=""></h6>
+<h1 id="段落测试">段落测试</h1>
+<p><em>斜体文字</em><br>
+<em>斜体文字</em><br>
+<strong>粗体文字</strong><br>
+<strong>粗体文字</strong><br>
+<em><strong>粗斜体文字</strong></em><br>
+<em><strong>粗斜体文字</strong></em></p>
+<h1 id="分割线测试">分割线测试</h1>
+<hr>
+<hr>
+<hr>
+<hr>
+<h1 id="删除线测试">删除线测试</h1>
+<p><s>我是被删除的文本</s></p>
+<h1 id="下划线测试">下划线测试</h1>
+<p><u>我是带下划线的文本</u></p>
+<h1 id="脚注测试">脚注测试</h1>
+<p>[^要注明的文本 ]</p>
+<h1 id="markdown列表测试">Markdown列表测试</h1>
+<p>无序列表测试</p>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<p>有序列表测试</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<p>列表嵌套</p>
+<ol>
+<li>第一项：
+<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li>第二项：
+<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+<h1 id="markdown区块">Markdown区块</h1>
+<blockquote>
+<p>区块引用<br>
+123<br>
+123</p>
+</blockquote>
+<blockquote>
+<p>最外层</p>
+<blockquote>
+<p>第一层嵌套</p>
+<blockquote>
+<p>第二层嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>区块中使用列表</p>
+<blockquote>
+<p>区块中使用列表</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+</blockquote>
+<p>列表中使用区块</p>
+<ul>
+<li>第一项
+<blockquote>
+<p>第一个<br>
+第二个</p>
+</blockquote>
+</li>
+<li>第二项</li>
+</ul>
+<h1 id="markdown代码">Markdown代码</h1>
+<p><code>printf()</code> 函数</p>
+<pre><code class="language-html">&lt;body&gt;HelloWorld&lt;/body&gt;
+</code></pre>
+<h1 id="markdown链接">Markdown链接</h1>
+<p>这是一个链接<a href="https://bilibili.com">哔哩哔哩</a><br>
+或者<a href="https://bilibili.com">https://bilibili.com</a></p>
+<p>高级链接<br>
+这个链接用 1 作为网址变量 <a href="https://bilibili.com">bi</a><br>
+这个链接用 2 作为网址变量 <a href="https://cn.bing.com">b</a></p>
+<h1 id="markdown图片">Markdown图片</h1>
+<figure data-type="image" tabindex="1"><img src="https://ftp.bmp.ovh/imgs/2021/06/0077e4d66fd9bb92.jpg" alt="啊这" loading="lazy"></figure>
+<h1 id="markdown表格">Markdown表格</h1>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">左对齐</th>
+<th style="text-align:right">右对齐</th>
+<th style="text-align:center">居中对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">单元格</td>
+<td style="text-align:right">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+<tr>
+<td style="text-align:left">单元格</td>
+<td style="text-align:right">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+</tbody>
+</table>
+<h1 id="markdown高级技巧">Markdown高级技巧</h1>
+<ul>
+<li>支持的HTML元素<br>
+目前支持的HTML元素有&lt;kbd&gt;&lt;b&gt;&lt;i&gt;&lt;em&gt;&lt;sup&gt;&lt;sub&gt;&lt;br&gt;等</li>
+<li>转义<br>
+Markdown 使用了很多特殊符号来表示特定的意义，如果使用显示指定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符</li>
+</ul>
+<pre><code>**文本加粗**
+\*\*正常显示星号\*\*
+</code></pre>
+<p>输出结果为：<br>
+<strong>文本加粗</strong><br>
+**正常显示星号**</p>
+<p>Markdown 支持以下这些符号在前面加反斜杠来帮助插入符号:</p>
+<pre><code>\ 反斜线
+` 反引号
+* 星号
+_ 下划线
+{} 花括号
+[] 方括号
+() 小括号
+# 井字号
++ 加号
+- 减号
+. 英文句号
+! 感叹号
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://Dr-li123.github.io/post/hello-gridea/</id>
