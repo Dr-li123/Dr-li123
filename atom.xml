@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Dr-li123.github.io</id>
     <title>Gridea</title>
-    <updated>2021-07-25T18:52:52.260Z</updated>
+    <updated>2021-09-16T01:21:20.868Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Dr-li123.github.io"/>
     <link rel="self" href="https://Dr-li123.github.io/atom.xml"/>
@@ -213,10 +213,12 @@ Bilibili <em><a href="https://bilibili.com">123</a></em>.<br>
 </ul>
 <pre><code class="language-markdown">使用实例：
 ![啊这](https://ftp.bmp.ovh/imgs/2021/06/0077e4d66fd9bb92.jpg)
+![好看](https://s3.bmp.ovh/imgs/2021/09/6a43ce97866e0b2e.png)
 </code></pre>
 <blockquote>
 <p>输出结果为：<br>
-<img src="https://ftp.bmp.ovh/imgs/2021/06/0077e4d66fd9bb92.jpg" alt="啊这" loading="lazy"></p>
+<img src="https://ftp.bmp.ovh/imgs/2021/06/0077e4d66fd9bb92.jpg" alt="啊这" loading="lazy"><br>
+<img src="https://s3.bmp.ovh/imgs/2021/09/6a43ce97866e0b2e.png" alt="好看" loading="lazy"></p>
 </blockquote>
 <h1 id="markdown表格">Markdown表格</h1>
 <p>Markdown制作表格只要|来分割不同的单元格，使用减号来分割表头和其他行。<br>
